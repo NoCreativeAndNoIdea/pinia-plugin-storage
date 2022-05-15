@@ -3,7 +3,6 @@
   "version": "0.0.2",
   "author": "jixiaoqi",
   "license": "MIT",
-  "private": "true",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint --fix",
