@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "author": "jixiaoqi",
   "license": "MIT",
+  "private": "true",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint --fix",
@@ -30,7 +31,7 @@
   "keywords": [],
   "description": "no idea utils monorepo",
   "dependencies": {
-    "@no_idea/utils": "^0.0.1",
+    "@no_idea/utils": "^0.0.2",
     "pinia": "^2.0.13"
   }
 }
