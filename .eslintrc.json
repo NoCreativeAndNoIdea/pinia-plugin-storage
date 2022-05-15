@@ -1,0 +1,9 @@
+{
+  "extends": "@no_idea/eslint-config-ts",
+  "rules": {
+    "max-lines-per-function": ["error", { "max": 100 }],
+    "max-statements-per-line": "off",
+    "complexity": ["off"],
+    "no-console": ["off"]
+  }
+}
