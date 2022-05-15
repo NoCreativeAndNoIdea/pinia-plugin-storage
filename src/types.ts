@@ -1,5 +1,4 @@
 import type { StateTree,PiniaPluginContext } from 'pinia';
-import type Storage from '@no_idea/utils/storage';
 
 type RestoreFn = (content: PiniaPluginContext) => void;
 

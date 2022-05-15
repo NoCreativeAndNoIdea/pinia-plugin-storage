@@ -4,6 +4,7 @@
   "author": "jixiaoqi",
   "license": "MIT",
   "scripts": {
+    "dev": "rollup -c --watch",
     "build": "rollup -c",
     "lint": "eslint --fix",
     "push": "pnpm build && pnpm version patch && pnpm publish"
@@ -30,7 +31,7 @@
   "keywords": [],
   "description": "no idea utils monorepo",
   "dependencies": {
-    "@no_idea/utils": "^0.0.2",
+    "@no_idea/utils": "^0.0.5",
     "pinia": "^2.0.13"
   }
 }
